@@ -17,6 +17,6 @@ def mecab(text):
             break
     return output
 
-# sample
-print(mecab("今日のエヴァンゲリオン出動予定は中止です"))
+# test
+# print(mecab("今日のエヴァンゲリオン出動予定は中止です"))
 

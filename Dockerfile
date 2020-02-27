@@ -11,7 +11,7 @@ RUN apt-get update -y && \
     apt-get upgrade -y && \
     apt-get dist-upgrade -y
 
-RUN apt-get install -y software-properties-common vim
+RUN apt-get install -y software-properties-common vim fonts-ipafont-gothic
 
 RUN apt-get update \
   && apt-get install python3.6 python3.6-dev python3-pip make curl git sudo cron -y \
