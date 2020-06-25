@@ -33,7 +33,12 @@ def morphological_analysis(sentence_L,label_L):
     return bow,label_L,words_L
 
 def calc_coef(bow,label_L,words_L):
-
+    """calcurate coefficient
+    Args:
+        bow(np.array):bag of words
+        label_L(list):lebel
+        words_L(list):words list
+    """
 
     lr = LogisticRegression()
     lr.fit(bow, label_L)
